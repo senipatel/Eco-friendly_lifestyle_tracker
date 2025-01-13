@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edtDailyUsage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Daily Water Usage (liter)"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtDailyUsage"
+        android:layout_marginTop="16dp"
+        android:text="Submit"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/txtTotalUsage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnSubmit"
+        android:layout_marginTop="16dp"
+        android:text="Total Water Usage: 0 liter"
+        android:layout_centerHorizontal="true"/>
+
+    <ListView
+        android:id="@+id/lstWaterTips"
+        android:layout_below="@id/txtTotalUsage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"/>
+</RelativeLayout>

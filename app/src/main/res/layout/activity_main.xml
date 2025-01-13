@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnChallenges"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Eco-friendly Challenges" />
+
+    <Button
+        android:id="@+id/btnShoppingList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/btnChallenges"
+        android:text="Sustainable Shopping List" />
+
+    <Button
+        android:id="@+id/btnRecipes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/btnShoppingList"
+        android:text="Eco-friendly Recipes" />
+
+    <Button
+        android:id="@+id/btnCalculator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/btnRecipes"
+        android:text="Carbon Footprint Calculator" />
+
+    <Button
+        android:id="@+id/btnWasteTracking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/btnCalculator"
+        android:text="Waste Tracking"/>
+
+    <Button
+        android:id="@+id/btnWaterTracking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Water Tracking"
+        android:layout_below="@id/btnWasteTracking"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnEcoProductsDirectory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eco Friendly Products Directory"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/btnWaterTracking"/>
+
+    <Button
+        android:id="@+id/btnGreenEnergyOptions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Green Energy Options"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/btnEcoProductsDirectory" />
+
+    <Button
+        android:id="@+id/btnEcoAwards"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eco Awards and Achievements"
+        android:layout_below="@id/btnGreenEnergyOptions"
+        android:layout_marginTop="20dp"/>
+
+<!--    <Button-->
+<!--        android:id="@+id/btnEcoChallenges"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Eco-friendly Challenges"-->
+<!--        android:layout_below="@id/btnEcoAwards"-->
+<!--        android:layout_marginTop="20dp" />-->
+
+</RelativeLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edtElectricity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Electricity IN KWh"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/edtPatrol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtElectricity"
+        android:layout_marginTop="8dp"
+        android:hint="Patrol in liter"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/edtDiesel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtPatrol"
+        android:layout_marginTop="8dp"
+        android:hint="Diesel in liter"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/edtLPG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtDiesel"
+        android:layout_marginTop="8dp"
+        android:hint="LPG in Liter"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/edtCNG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtLPG"
+        android:layout_marginTop="8dp"
+        android:hint="CNG in KIlo"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtDiesel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="155dp"
+        android:text="Calculate Carbon Footprint" />
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnCalculate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Result will be displayed here" />
+</RelativeLayout>
